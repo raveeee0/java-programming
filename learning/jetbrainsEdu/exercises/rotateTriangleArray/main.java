@@ -29,6 +29,8 @@ class Main {
                 System.out.print(array[i][j] + " ");
             }
             System.out.println();
-        } 
+        }
+
+        scanner.close();
     }
 }
