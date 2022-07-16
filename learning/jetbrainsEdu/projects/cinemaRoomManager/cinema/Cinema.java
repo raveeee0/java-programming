@@ -113,7 +113,7 @@ public class Cinema {
         }
         
         System.out.println("Number of purchased tickets: " + booked +
-                            "\nPercentage: " + String.format("%.2f", booked * 100.00f /totalSeats) + "%" +
+                            "\nPercentage: " + String.format("%.2f", (float) booked * 100.00f /totalSeats) + "%" +
                             "\nCurrent income: $" + currentIncome +
                             "\nTotal income: $" + totalIncome());        
         
